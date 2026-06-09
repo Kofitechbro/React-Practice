@@ -61,7 +61,7 @@ export function FeatureCard(props) {
   return (
     <div className='feature-wrap'>
       {featureList.map((feature) => (
-        <div key={feature.id} className='feature-item'>
+        <div key={feature.id} className='feature-item container-surface'>
           <div style={{ backgroundColor: feature.color }} className='feat-icon'>
             <img src={feature.img} alt={feature.title} className="icon" />
           </div>

@@ -78,3 +78,8 @@ section {
 .icon {
   width: 1.5rem;
 }
+
+
+.container-surface {
+  background-color: var(--neutral-text-color);
+}

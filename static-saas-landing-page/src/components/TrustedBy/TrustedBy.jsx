@@ -7,7 +7,7 @@ import './TrustedBy.css'
 
 export function TrustedBy() {
   return (
-    <section className='trusted-by'>
+    <section className='trusted-by container-surface'>
       <h4>TRUSTED BY 10,000+ TEAMS WORLDWIDE</h4>
 
       <div className="container icon-img">
