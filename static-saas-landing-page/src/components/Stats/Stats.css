@@ -1,0 +1,22 @@
+.stats {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.bg-stats {
+    background-color: var(--primary-surface);
+}
+
+.stats-num {
+    color: var(--neutral-text-color);
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.stats p {
+    color: var(--on-primary);
+}

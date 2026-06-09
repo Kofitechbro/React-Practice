@@ -4,6 +4,7 @@ import { Navbar } from './components/NavBar/Navbar';
 import { TrustedBy } from './components/TrustedBy/TrustedBy';
 import { Features } from './components/Features/Features';
 import { Products } from './components/Products/Products';
+import { Stats } from './components/Stats/stats';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <TrustedBy />
         <Features />
         <Products />
+        <Stats />
       </main>
     </>
   );

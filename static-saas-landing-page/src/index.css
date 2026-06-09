@@ -55,8 +55,10 @@
 :root {
   --pg-bg: #faf8ff;
   --primary-color: #0439ab;
+  --primary-surface: #2563eb;
   --hover-primary-color: #004ac6;
   --text-primary-color: #0439ab;
+  --on-primary: #eeefff;
   --secondary: #712ae2;
   --tertiary: #006056;
   --deep-surface: #dae2fd;
