@@ -1,0 +1,43 @@
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.product-container {
+  gap: 5rem;
+}
+
+.product-content {
+  gap: 1.5rem;
+}
+
+.item-list {
+    gap: 1rem;
+}
+
+.text-secondary {
+  color: var(--secondary);
+}
+
+.text-tertiary {
+  color: var(--tertiary);
+}
+
+.deep-surface {
+  background-color: var(--deep-surface);
+  border-radius: 0.5rem;
+  border: 1px solid var(--border-color);
+  box-shadow: var(--shadow-btn);
+  padding: 0.25rem;
+}
+
+ul li {
+    display: flex;
+    gap: 1rem;
+    justify-content: start;
+    align-items: center;
+}
+
+.product-content, .product-container .deep-surface {
+    width: 50%;
+}
