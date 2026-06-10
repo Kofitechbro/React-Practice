@@ -6,6 +6,7 @@ import { Features } from './components/Features/Features';
 import { Products } from './components/Products/Products';
 import { Stats } from './components/Stats/stats';
 import { Testimonials } from './components/Testimonials/Testimonials';
+import { Pricing } from './components/Pricing/Pricing';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Products />
         <Stats />
         <Testimonials />
+        <Pricing />
       </main>
     </>
   );

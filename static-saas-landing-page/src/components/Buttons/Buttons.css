@@ -31,6 +31,7 @@ button {
 
 .btn-medium {
   padding: 0.625rem 1.5rem;
+  gap: 0.5rem;
 }
 
 .btn-outline {
@@ -39,7 +40,6 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 0.5rem;
 }
 
 .btn-outline:hover {
