@@ -1,0 +1,34 @@
+.testimo {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 2rem;
+}
+
+.testimo-item {
+    border: 1px solid var(--border-color);
+    border-radius: 0.5rem;
+    padding: 2rem;
+    flex-direction: column;
+}
+
+.flex {
+    display: flex;
+    gap: 1rem;
+}
+
+.user-name {
+    color: var(--header-text-color);
+}
+
+.profile-img {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 0.25rem;
+    overflow: hidden;
+    background-color: var(--deep-surface);
+}
+
+.star {
+    display: flex;
+    gap: 0.25rem;
+}

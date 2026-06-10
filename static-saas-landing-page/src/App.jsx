@@ -5,6 +5,7 @@ import { TrustedBy } from './components/TrustedBy/TrustedBy';
 import { Features } from './components/Features/Features';
 import { Products } from './components/Products/Products';
 import { Stats } from './components/Stats/stats';
+import { Testimonials } from './components/Testimonials/Testimonials';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Features />
         <Products />
         <Stats />
+        <Testimonials />
       </main>
     </>
   );

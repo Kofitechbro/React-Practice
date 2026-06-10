@@ -83,3 +83,16 @@ section {
 .container-surface {
   background-color: var(--neutral-text-color);
 }
+
+.sect-text {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.sect-text h2 {
+  margin-bottom: 1rem;
+}
+
+.sect-text p {
+  font-size: 1.125rem;
+}
