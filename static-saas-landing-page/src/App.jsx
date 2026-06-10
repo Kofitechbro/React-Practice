@@ -8,6 +8,7 @@ import { Stats } from './components/Stats/stats';
 import { Testimonials } from './components/Testimonials/Testimonials';
 import { Pricing } from './components/Pricing/Pricing';
 import { CallToAction } from './components/CTA/CallToAction';
+import { Footer } from './components/Footer/Footer';
 
 function App() {
   return (
@@ -23,6 +24,9 @@ function App() {
         <Pricing />
         <CallToAction />
       </main>
+      <footer>
+        <Footer />
+      </footer>
     </>
   );
 }
