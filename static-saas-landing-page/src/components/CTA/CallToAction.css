@@ -1,0 +1,32 @@
+.CTA {
+  margin: 0;
+  max-width: 100%;
+  text-align: center;
+  background-color: var(--inverse-surface);
+}
+
+.CTA .sect-text {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.CTA .sect-text h2 {
+  color: var(--inverse-on-surface);
+}
+
+.CTA .sect-text p {
+    color: #d2d2d1;
+}
+
+.CTA .btn-group {
+    margin-top: 3rem;
+  justify-content: center;
+  align-items: center;
+}
+.CTA .btn-group .btn-outline {
+   color: var(--inverse-on-surface);
+   border-color: var(--border-variant);
+}
+.CTA .btn-group .btn-outline:hover {
+   background-color: rgba(255, 255, 255, 0.05);
+}

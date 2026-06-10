@@ -26,3 +26,11 @@ export function ButtonMediumOutline({ text, icon }) {
     </button>
   );
 }
+
+export function ButtonLarge({text}) {
+  return <button className='btn-large primary-btn'>{text}</button>
+}
+
+export function ButtonLargeOutline({text}) {
+  return <button className='btn-large btn-outline'>{text}</button>
+}

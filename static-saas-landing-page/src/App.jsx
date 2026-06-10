@@ -7,6 +7,7 @@ import { Products } from './components/Products/Products';
 import { Stats } from './components/Stats/stats';
 import { Testimonials } from './components/Testimonials/Testimonials';
 import { Pricing } from './components/Pricing/Pricing';
+import { CallToAction } from './components/CTA/CallToAction';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Stats />
         <Testimonials />
         <Pricing />
+        <CallToAction />
       </main>
     </>
   );

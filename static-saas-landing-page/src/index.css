@@ -63,10 +63,13 @@
   --tertiary: #006056;
   --deep-surface: #dae2fd;
   --low-surface: #f2f3ff;
+  --inverse-surface: #283044;
+  --inverse-on-surface: #eef0ff;
   --header-text-color: #131b2e;
   --text-color: #434655;
   --neutral-text-color: #fff;
   --border-color: #c3c6d7;
+  --border-variant: #c3c6d7;
   --shadow-btn: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1);
 }
 

@@ -45,3 +45,7 @@ button {
 .btn-outline:hover {
   background-color: #0000ff2f;
 }
+
+.btn-large {
+  padding: 1rem 1.25rem;
+}

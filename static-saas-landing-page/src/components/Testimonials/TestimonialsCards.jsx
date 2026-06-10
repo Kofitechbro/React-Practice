@@ -3,8 +3,8 @@ import './Testimonials.css';
 
 export function TestimonialsCards({ src, alt, name, prof, testimo }) {
   return (
-    <div className="testimo-item flex">
-      <div className="flex">
+    <div className="testimo-item testimo-flex">
+      <div className="testimo-flex">
         <div className="profile-img">
           <img src={src} alt={alt} className="profile" />
         </div>
